@@ -1,0 +1,99 @@
+:root {
+    --baby-powder: #fffffa;
+    --cordovan: #912f40;
+    --wine: #702632;
+    --charcoal: #40434E;
+    --black: #080705;
+
+}
+
+
+.header {
+    font-size: 24px;
+    color: var(--wine);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.logo {
+    padding: 16px;
+    font-family: 'Handjet';
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--wine);
+    padding: 16px;
+}
+
+.container1 {
+    background-color: var(--baby-powder);
+    height: 150px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Dosis';
+}
+
+button {
+    font-family: 'Dosis';
+    border-radius: 12px;
+    border-color: var(--charcoal);
+    padding: 8px;
+    color: var(--black);
+    cursor: pointer;
+    width: 100px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--black);
+    color: var(--baby-powder);
+}
+
+.container2 {
+    background-color: var(--cordovan);
+    height: 350px;
+}
+
+.body1 {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: inherit;
+}
+
+.intro {
+    flex-direction: column;
+    width: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--baby-powder);
+}
+
+p {
+    font-size: 18px;
+    color: var(--black)
+}
+
+.picture1 {
+    width: 50%;
+    margin: 0;
+    background-color: var(--charcoal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--black)
+}
+
+
+
