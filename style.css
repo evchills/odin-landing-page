@@ -19,11 +19,16 @@
 }
 
 .logo {
-    padding: 16px;
-    font-family: 'Handjet';
+    padding: 32px;
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    box-shadow:
+        20px 20px 20px var(--charcoal)       
 }
 
-a {
+.toplinks {
     text-decoration: none;
     font-size: 18px;
     color: var(--wine);
@@ -44,7 +49,7 @@ button {
     font-family: 'Dosis';
     border-radius: 12px;
     border-color: var(--charcoal);
-    padding: 8px;
+    padding: 5px;
     color: var(--black);
     cursor: pointer;
     width: 100px;
@@ -81,19 +86,110 @@ h1 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 17px;
     color: var(--black)
 }
 
 .picture1 {
     width: 50%;
     margin: 0;
-    background-color: var(--charcoal);
+    background-color: var(--black);
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--black)
 }
 
+.container3 {
+    background-color: var(--black);
+    height: 475px;
+    text-align: center;
+}
 
+.body2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: inherit;
+}
 
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--baby-powder);
+    margin-bottom: 32px;
+}
+
+.albums {
+    display: flex;
+    gap: 32px;
+    justify-content: space-around;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: center;
+    height: 300px;
+    max-width: 120px;
+}
+
+.text {
+    font-family: "Dosis";
+    color: var(--baby-powder);
+    margin: 5px;
+}
+
+.album-art {
+    border-style: solid;
+    border-radius: 5% 20%;
+    border-width: 1px;
+    border-color: var(--baby-powder);
+    margin: 5px;
+}
+
+hr {
+    border: 1px var(--black);
+}
+
+.container4 {
+    background-color: var(--charcoal);
+    height: 350px;
+}
+
+.body3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: inherit;
+}
+
+.quote {
+    font-family: "Dosis";
+    font-size: 42px;
+    font-style: italic;
+    text-shadow: rgb(239, 239, 152) 1px 0 10px;
+}
+
+.citation {
+    color: var(--baby-powder);
+}
+
+.container5 {
+    background-color: var(--baby-powder);
+    height: 150px;
+    text-align: center;
+}
+
+.body4 {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
